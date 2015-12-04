@@ -6,7 +6,7 @@ Something.js adds `something` variable that equals different global properties e
 ## Usage
 ### on browser
 ```html
-<script src="smth.js"></script>
+<script src="something.js"></script>
 ```
 ### on NodeJS
 ```bash
