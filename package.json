@@ -1,0 +1,22 @@
+{
+  "name": "something",
+  "version": "0.0.1",
+  "description": "Adds something to your global",
+  "main": "something.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frux/something.git"
+  },
+  "keywords": [
+    "something"
+  ],
+  "author": "frux",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/frux/something/issues"
+  },
+  "homepage": "https://github.com/frux/something#readme"
+}
