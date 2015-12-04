@@ -1,6 +1,7 @@
 /**
  * Something.js
  * Adds something to your global
+ * @version 0.0.1
  * @author frux
  * @url https://github.com/frux/something
  */
