@@ -1,7 +1,10 @@
-Object.defineProperty(window, 'something', {
+(function(){
+	var _global = ((typeof window === 'object') ? window : global);
+
+	Object.defineProperty(_global, 'something', {
 		get: function(){
-			var keys = Object.keys(window);
-			return window[ keys[ Math.floor(Math.random() * keys.length) ] ];
+			var keys = Object.keys(_global);
+			return _global[keys[Math.floor(Math.random()*keys.length)]];
 		}
-	}
-);
+	});
+})();
