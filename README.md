@@ -1,12 +1,22 @@
 # Something.js
-## Adds something to your window
+## Adds something to your global
 
-Something.js adds something variable that equals different window properties every time you try to get its value.
+Something.js adds `something` variable that equals different global properties every time you try to get its value.
 
-### Usage
+## Usage
+### on browser
 ```html
 <script src="something.js"></script>
 ```
+### on NodeJS
+```bash
+npm install something
+```
+
+```js
+require('smth');
+```
+
 And now just use something!
 ```js
 console.log(typeof something) //'function'
@@ -16,7 +26,7 @@ console.log(typeof something) //'object'
 console.log(typeof something) //'null'
 ```
 
-You can compare your variables with something:
+Also you can compare your variables with something:
 ```js
 if(myVariable === something){
   //...your code
