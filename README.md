@@ -5,7 +5,7 @@ Something.js adds something variable that equals different window properties eve
 
 ### Usage
 ```html
-<scr src="somthing.js"></script>
+<scr src="something.js"></script>
 ```
 And now just use something!
 ```js
